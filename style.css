@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: #eee;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #2d3748;
+  padding: 10px 20px;
+}
+.menu a {
+  margin: 0 10px;
+  color: #bbb;
+  text-decoration: none;
+  font-weight: bold;
+}
+.menu a.active {
+  color: orange;
+}
+.menu a:hover {
+  color: #fff;
+}
+.right {
+  display: flex;
+  gap: 10px;
+}
+
+.hero img {
+  width: 100%;
+  display: block;
+}
+
+.updates {
+  padding: 20px;
+  text-align: center;
+}
+.slider {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 15px;
+}
+.card {
+  width: 200px;
+  height: 120px;
+  overflow: hidden;
+  border-radius: 8px;
+}
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.news {
+  padding: 20px;
+}
+.news-item {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+.news-item img {
+  width: 200px;
+  border-radius: 8px;
+}
+.news-item .text {
+  max-width: 600px;
+}
+
+.footer {
+  background: #2d3748;
+  color: #aaa;
+  text-align: center;
+  padding: 15px;
+}
+.footer .menu {
+  margin-top: 10px;
+}
